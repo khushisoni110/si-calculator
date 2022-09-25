@@ -1,0 +1,36 @@
+<script>
+function call()
+{
+c=parseInt(txt1.value)*parseInt(txt2.value)*parseInt(txt3.value)/100
+result.innerHTML="<b>"+c+"</b>"
+}
+</script>
+
+<html>
+<title> SIMPLE INTEREST CALCULATOR</title>
+<center><h1><b> <i>SIMPLE  INTEREST  CALCULATOR </i></b></h1></center>
+<table align = "center" bgcolor="aqua">
+<tr>
+     <td><b>Enter Principle: </b></td>
+     <td><input type ="text" id="txt1"></td>
+</tr>
+
+<tr>
+     <td><b>Enter Rate: </b></td>
+     <td><input type ="text" id="txt2"></td>
+</tr>
+
+<tr>
+     <td><b>Enter Time: </b></td>
+     <td><input type ="text" id="txt3"></td>
+</tr>
+
+<tr>
+    <td><input type="button" value="Click here" onclick="call()"></td>
+</tr>
+
+<tr>
+    <td>Simple Interest Is: </b><span id ="result"></span></td>
+<tr>
+</table>
+</html>
